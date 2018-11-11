@@ -26,6 +26,12 @@ docker pull mysql:5.7.24
 
 ```
 docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=pruebas -d mysql:5.7.24
+
+```
+
+Connection on database instance by docker
+```
+sudo docker exec -it mysql-instance bash
 ```
 
 ```
