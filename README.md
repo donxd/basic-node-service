@@ -34,6 +34,7 @@ Connection on database instance by docker
 sudo docker exec -it mysql-instance bash
 ```
 
+Generation a table
 ```
 create table test (id integer auto_increment  not null, primary key(id) ) engine=Innodb auto_increment = 1 collate=utf8_bin;
 ```
