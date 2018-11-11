@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/donxd/basic-node-service/issues"
   },
-  "homepage": "https://github.com/donxd/basic-node-service#readme"
+  "homepage": "https://github.com/donxd/basic-node-service#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
