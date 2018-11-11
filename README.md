@@ -27,3 +27,7 @@ docker pull mysql:5.7.24
 ```
 docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=pruebas -d mysql:5.7.24
 ```
+
+```
+create table test (id integer auto_increment  not null, primary key(id) ) engine=Innodb auto_increment = 1 collate=utf8_bin;
+```
