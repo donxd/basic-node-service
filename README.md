@@ -24,8 +24,9 @@ Download image
 docker pull mysql:5.7.24
 ```
 
+Execution instance with 3377 port has bridge
 ```
-docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=pruebas -d mysql:5.7.24
+docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=pruebas -d -p 3377:3306 mysql:5.7.24
 
 ```
 
